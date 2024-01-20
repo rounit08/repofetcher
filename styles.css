@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#searchInput {
+  margin-top: 10px;
+  height: 10%;
+}
+.searchUserName {
+  width: 50vh;
+  padding: 10px;
+}
+
+.searchUserName:focus {
+  background-color: gainsboro;
+  color: black;
+}
+
+.container {
+  height: 100vh;
+  width: 95vw;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.topSection {
+  display: flex;
+  margin: 5px;
+  height: 28%;
+  justify-content: space-between;
+}
+
+.mediaDetails {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mediaDetails > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.mediaDetails > a {
+  text-decoration: none;
+  color: black;
+}
+#githubLink {
+  color: black;
+  font-size: 12px;
+}
+
+.details {
+  margin-left: 5vw;
+}
+
+.bottomSection {
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  width: 78%;
+  margin-bottom: 16px;
+  height: 180px !important;
+}
+
+.cardSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1px;
+  height: 62%;
+  overflow: scroll;
+}
+.card-title {
+  height: 20px;
+}
+
+.card-text {
+  height: 60px;
+}
+.list-group-item {
+  width: 100%;
+}
